@@ -1,0 +1,111 @@
+
+
+/* menue oben */
+
+#menu1 a, #menu1 a:visited , #menu1 a:active {display: block;
+color:#46688E;
+
+text-decoration:none ;font-family:verdana, sans-serif; font-size: 12px;
+padding-left: 10px;padding-right: 10px; padding-bottom: 0px; padding-top:0px;
+margin-left: 0px;margin-right: 0px;
+border-left:solid 0px #AAAAAA;
+
+height:40px;
+line-height:40px;
+text-align:center;
+border-bottom:solid 0px #fff;
+background-color:#fff;
+
+
+}
+#menu1 a:hover {background-color:#;color:#4d81b1; text-decoration:none ;
+background-color:#fff;
+background-image:url(images/cube.gif);
+background-repeat:no-repeat;
+background-position:50% 100%;
+border-bottom:solid 0px #4d81b1;
+
+
+
+}
+
+.trenn {width:1px;background-color:#fff;color:#C0CB67}
+
+
+/* menue rechts  */
+
+#menu2 {
+
+border: dashed 0px #fff;
+background-color:#;
+text-align: left;
+margin-top:0px;
+margin-bottom:0px;
+margin-right:0px;
+margin-left:0px;
+padding-bottom:0px;
+padding-top:0px;
+}
+
+#menu2 ul, #menu2 li {
+list-style-type: none;
+margin-left:4px;
+padding: 0px;
+color:#04537D
+}
+#menu2 li a:link, #menu2 li a:visited, #menu2 li a:active {display:block;
+        border-bottom: dashed 0px #C2631D;
+        width:200px;
+        color:#000;text-decoration:none;
+        font-size: 13px;
+
+font-family: arial, helvetica, tahoma ,verdana,  sans-serif;
+height: 16px;
+line-height: 16px;
+background-image:url(images/cube.gif);
+background-repeat:no-repeat;
+background-position:4px 50%;
+padding-left:28px;
+}
+
+#menu2 li a:hover { background:TRANSPARENT;
+                color:#04537D;
+        text-decoration:underline;;
+background-image:url(images/cube2.gif);
+background-repeat:no-repeat;
+background-position:4px 50%;
+padding-left:28px;
+}
+
+
+/* menue in box1  */
+
+#menubox a , #menubox a:visited , #menubox a:active {display:inline;
+background-color:#;
+color:#000;
+font-size: 11px;line-height: 15px;
+font-family: arial, helvetica, tahoma ,verdana,  sans-serif;
+text-decoration:underline;
+text-align:left;
+font-style:italic;
+
+
+
+}
+
+#menubox a:hover{
+background:transparent;
+color:#04537D;
+text-decoration:underline ;
+}
+
+
+
+/* allgemeine links im text */
+
+a:link, a:visited, a:active{ font-size: 14px;line-height: 18px;
+font-family: arial, helvetica, tahoma ,verdana,  sans-serif;
+text-decoration:underline;color:#000;}
+
+a:hover{ text-decoration:none;background-color:#fff;
+color:#04537D;text-decoration:none;}
